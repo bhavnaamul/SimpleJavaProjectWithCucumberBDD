@@ -7,8 +7,9 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 
-        features = "src/test/resources/feature/Login.feature",
-        glue = {"stepDefinitions", "hooks"},
+        features = "src/test/resources/feature/Dashboard.feature",
+       // tags = "@Smoke",
+        glue = {"stepDefinition", "hooks"},
         plugin = {"pretty"},
         monochrome = true
 )
@@ -16,7 +17,7 @@ import io.cucumber.testng.CucumberOptions;
 public class TestRunner
         extends AbstractTestNGCucumberTests {
 	@Override
-    @DataProvider(parallel = true)
+    @DataProvider(parallel = false)
     public Object[][] scenarios() {
 
         return super.scenarios();

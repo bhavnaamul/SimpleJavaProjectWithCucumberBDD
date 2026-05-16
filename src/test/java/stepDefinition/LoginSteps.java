@@ -1,5 +1,6 @@
 package stepDefinition;
 
+import context.ScenarioContext;
 import factory.DriverFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -23,15 +24,23 @@ driver initialization
  */
 
 public class LoginSteps {
-	LoginPage loginPage = new LoginPage();
+	// LoginPage loginPage = new LoginPage();
+	private LoginPage loginPage;
+	private ScenarioContext scenarioContext;
 
+	public LoginSteps(ScenarioContext scenarioContext, LoginPage loginPage) {
+		this.scenarioContext = scenarioContext;
+		this.loginPage = loginPage;
+	}
 
 	@Given("user launches application")
 	public void launchApplication() {
 		System.out.println("Executing Scenario On -> " + Thread.currentThread().getName());
 		System.out.println("STEP 1 - Launch Application");
 		System.out.println(DriverFactory.getDriver());
-		//loginPage.loadApplication();
+		loginPage.login();
+		System.out.println("Username stored -> " + scenarioContext.getUsername());
+		// loginPage.loadApplication();
 	}
 
 	@Given("user setup PAC details successfully")
