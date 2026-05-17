@@ -1,6 +1,7 @@
 package pages;
 
 import factory.DriverFactory;
+import utility.LoggerUtil;
 /*
  * 
  * Central place for:
@@ -17,12 +18,9 @@ Hooks + DriverFactory manage lifecycle.
  * */
 
 public class BasePage {
-	 public void loadApplication() {
-
-	        System.out.println(
-	                "Application Loaded Using -> "
-	                        + DriverFactory.getDriver()
-	        );
-	    }
+	public void loadApplication() {
+		LoggerUtil.logger.info("Application Loaded Using -> " + DriverFactory.getDriver());
+		//System.out.println("Application Loaded Using -> " + DriverFactory.getDriver());
+	}
 
 }
