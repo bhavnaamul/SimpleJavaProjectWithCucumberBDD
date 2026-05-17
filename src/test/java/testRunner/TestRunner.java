@@ -10,7 +10,8 @@ import io.cucumber.testng.CucumberOptions;
         features = "src/test/resources/feature/Dashboard.feature",
        // tags = "@Smoke",
         glue = {"stepDefinition", "hooks"},
-        plugin = {"pretty"},
+        plugin = {"pretty" ,"html:target/cucumber-reports.html",
+				"json:target/cucumber-reports.json"},
         monochrome = true
 )
 

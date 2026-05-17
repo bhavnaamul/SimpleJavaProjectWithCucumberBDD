@@ -1,0 +1,33 @@
+2026-05-17 15:12:05 INFO  utility.LoggerUtil - ===== TEST EXECUTION STARTED =====30
+2026-05-17 15:12:05 INFO  utility.LoggerUtil - Application launched successfully
+2026-05-17 15:12:05 INFO  utility.LoggerUtil - User logged into application
+2026-05-17 15:12:05 INFO  utility.LoggerUtil - Dashboard displayed successfully
+2026-05-17 15:12:05 INFO  utility.LoggerUtil - ===== TEST EXECUTION COMPLETED =====30
+2026-05-17 15:15:51 INFO  utility.LoggerUtil - ===== TEST EXECUTION STARTED =====30
+2026-05-17 15:15:51 INFO  utility.LoggerUtil - Executing Scenario On ->TestNG-tests-1 - 30
+2026-05-17 15:15:51 INFO  utility.LoggerUtil - User logged into application
+2026-05-17 15:15:51 INFO  utility.LoggerUtil - Username stored -> Bhavna
+2026-05-17 15:15:51 INFO  utility.LoggerUtil - User logged into application
+2026-05-17 15:15:51 INFO  utility.LoggerUtil - STEP - Verify Login
+2026-05-17 15:15:51 INFO  utility.LoggerUtil - Dashboard displayed successfully
+2026-05-17 15:15:51 INFO  utility.LoggerUtil - Dashboard username -> Bhavna
+2026-05-17 15:15:51 INFO  utility.LoggerUtil - ===== TEST EXECUTION COMPLETED =====30
+2026-05-17 15:18:09 INFO  utility.LoggerUtil - ===== TEST EXECUTION STARTED =====30
+2026-05-17 15:18:09 INFO  utility.LoggerUtil - Executing Scenario On ->TestNG-tests-1 - 30
+2026-05-17 15:18:09 INFO  utility.LoggerUtil - Performing Login Action by entering credentials and clicking login button
+2026-05-17 15:18:09 INFO  utility.LoggerUtil - Entered Username
+2026-05-17 15:18:09 INFO  utility.LoggerUtil - Username stored in ScenarioContext -> null
+2026-05-17 15:18:09 INFO  utility.LoggerUtil - Entered Password
+2026-05-17 15:18:09 INFO  utility.LoggerUtil - Clicked Login
+2026-05-17 15:18:09 INFO  utility.LoggerUtil - User logged into application
+2026-05-17 15:18:09 INFO  utility.LoggerUtil - Username stored -> null
+2026-05-17 15:18:09 INFO  utility.LoggerUtil - User logged into application
+2026-05-17 15:18:09 INFO  utility.LoggerUtil - Performing Login Action by entering credentials and clicking login button
+2026-05-17 15:18:09 INFO  utility.LoggerUtil - Entered Username
+2026-05-17 15:18:09 INFO  utility.LoggerUtil - Username stored in ScenarioContext -> null
+2026-05-17 15:18:09 INFO  utility.LoggerUtil - Entered Password
+2026-05-17 15:18:09 INFO  utility.LoggerUtil - Clicked Login
+2026-05-17 15:18:09 INFO  utility.LoggerUtil - STEP - Verify Login
+2026-05-17 15:18:09 INFO  utility.LoggerUtil - Dashboard displayed successfully
+2026-05-17 15:18:09 INFO  utility.LoggerUtil - Dashboard username -> null
+2026-05-17 15:18:09 INFO  utility.LoggerUtil - ===== TEST EXECUTION COMPLETED =====30

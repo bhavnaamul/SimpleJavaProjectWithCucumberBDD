@@ -1,6 +1,7 @@
 package pages;
 
 import context.ScenarioContext;
+import utility.LoggerUtil;
 
 /*
  * Contains:
@@ -19,16 +20,19 @@ public class LoginPage extends BasePage {
 	}
 
     public void login() {
-
-        System.out.println("Entered Username");
-        scenarioContext.setUsername("Bhavna");
-        System.out.println("Entered Password");
-
-        System.out.println("Clicked Login");
+LoggerUtil.logger.info("Performing Login Action by entering credentials and clicking login button");
+       // System.out.println("Entered Username");
+LoggerUtil.logger.info("Entered Username");
+  //      scenarioContext.setUsername("Bhavna");
+        LoggerUtil.logger.info("Username stored in ScenarioContext -> " + scenarioContext.getUsername());
+        //System.out.println("Entered Password");
+        LoggerUtil.logger.info("Entered Password");
+        //System.out.println("Clicked Login");
+        LoggerUtil.logger.info("Clicked Login");
     }
 
     public void createPACTransaction() {
-
-        System.out.println("PAC Transaction Created");
+LoggerUtil.logger.info("PAC Transaction Created successfully");
+       // System.out.println("PAC Transaction Created");
     }
 }
